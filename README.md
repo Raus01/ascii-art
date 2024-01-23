@@ -2,7 +2,10 @@
 
 This program creates a website with text input, raido buttons which switches between banners and a ascii-art output.
 
-## Getting Started
+# Project links
+
+- [Github link](https://github.com/01-edu/public/tree/master/subjects/ascii-art-web) for the project description
+- Ascii-art-web [audit questions](https://github.com/01-edu/public/tree/master/subjects/ascii-art-web/audit)
 
 ### Installing
 
