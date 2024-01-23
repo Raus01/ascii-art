@@ -1,0 +1,33 @@
+
+.taust {
+    background-color: rgb(39, 177, 223);
+}
+
+.tekst {
+    color: rgb(10, 8, 9);
+    text-align: center;
+    height: 200px;
+    width: 50%;
+}
+
+.kast {
+    text-align: center;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid rgb(9, 17, 9);
+    padding: 50px;
+    margin: 20px;
+}
+
+.center {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+  
+.textarea {
+    
+    resize: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="../css/style.css" >
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- The welcome struct (shown in the main.go code) is received within the HTML and we just need to use the . operator and retrieve the information we want -->
+   </head>
+
+   <body>
+
+    <div class="kast" >
+        <h1><caption>Ascii Art Web</caption></h1>
+             <form method="POST" action="/">
+                 <textarea class="textarea" input name="name" type="text" value="type something" rows="5" cols="40" ></textarea>
+                 <input type="submit" value="Generate" />
+                 <h3 style="color:blue;text-align:left;">Select banner:</h3>
+                 <select name="banner">
+                     <option value="standard">Standard</option>
+                     <option value="shadow">Shadow</option>
+                     <option value="thinkertoy">Thinkertoy</option>
+                 </select>
+ 
+             </div>
+             </form> 
+ 
+ 
+ 
+ 
+                 <pre>{{.}}</pre>
+    </body>
+ </html>
